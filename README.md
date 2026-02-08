@@ -26,13 +26,13 @@ The dataset (`adult.csv`) consists of 15 columns with a mix of categorical and n
 #### 2. Exploratory Data Analysis (Module: `eda.py`)
 * [cite_start]Generate a **Correlation Matrix Heatmap** to identify highly correlated features[cite: 5].
 * Visualize class distribution (Check for imbalance between `<=50K` and `>50K`).
-* [cite_start]**Optional**: Apply **PCA (Principal Component Analysis)** to reduce dimensionality and visualize data separation in 2D space, as practiced in Lab 1[cite: 5].
+* [cite_start]**Optional**: Apply **PCA (Principal Component Analysis)** to reduce dimensionality and visualize data separation in 2D space[cite: 5].
 
 #### 3. Model Implementation (Module: `models.py`)
 We will implement and compare the following classifiers:
 1.  [cite_start]**Decision Tree**: As a baseline model to visualize decision rules.
-2.  **Random Forest Classifier**: **(Primary Model)**. [cite_start]According to Lab 4 results, this should be our main focus as it reduces variance and over-fitting compared to single Decision Trees.
-3.  [cite_start]**Support Vector Machine (SVM)**: Test with both Linear and RBF kernels to see if the data is linearly separable (referencing Lab 3 insights)[cite: 3].
+2.  **Random Forest Classifier**: **(Primary Model)**. [cite_start] This should be our main focus as it reduces variance and over-fitting compared to single Decision Trees.
+3.  [cite_start]**Support Vector Machine (SVM)**: Test with both Linear and RBF kernels to see if the data is linearly separable [cite: 3].
 
 #### 4. Evaluation & Performance (Module: `evaluation.py`)
 Measure performance using standard classification metrics:
