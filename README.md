@@ -24,15 +24,15 @@ The dataset (`adult.csv`) consists of 15 columns with a mix of categorical and n
 * **Scaling**: Apply `StandardScaler` or `MinMaxScaler` to numerical columns (`age`, `fnlwgt`, `capital.gain`, `hours.per.week`) to normalize distributions, especially important if we test SVM/KNN.
 
 #### 2. Exploratory Data Analysis (Module: `eda.py`)
-* [cite_start]Generate a **Correlation Matrix Heatmap** to identify highly correlated features[cite: 5].
+* [cite_start]Generate a **Correlation Matrix Heatmap** to identify highly correlated features.
 * Visualize class distribution (Check for imbalance between `<=50K` and `>50K`).
-* [cite_start]**Optional**: Apply **PCA (Principal Component Analysis)** to reduce dimensionality and visualize data separation in 2D space[cite: 5].
+* [cite_start]**Optional**: Apply **PCA (Principal Component Analysis)** to reduce dimensionality and visualize data separation in 2D space.
 
 #### 3. Model Implementation (Module: `models.py`)
 We will implement and compare the following classifiers:
 1.  [cite_start]**Decision Tree**: As a baseline model to visualize decision rules.
 2.  **Random Forest Classifier**: **(Primary Model)**. [cite_start] This should be our main focus as it reduces variance and over-fitting compared to single Decision Trees.
-3.  [cite_start]**Support Vector Machine (SVM)**: Test with both Linear and RBF kernels to see if the data is linearly separable [cite: 3].
+3.  [cite_start]**Support Vector Machine (SVM)**: Test with both Linear and RBF kernels to see if the data is linearly separable.
 
 #### 4. Evaluation & Performance (Module: `evaluation.py`)
 Measure performance using standard classification metrics:
@@ -56,4 +56,4 @@ Measure performance using standard classification metrics:
     ```
 
 ### 📊 Hypothesis
-[cite_start] We expect the **Random Forest** model to outperform the Decision Tree by averaging predictions from multiple trees (Bagging), providing better generalization on this demographic data.
+We expect the **Random Forest** model to outperform the Decision Tree by averaging predictions from multiple trees (Bagging), providing better generalization on this demographic data.
