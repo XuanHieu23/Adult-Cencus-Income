@@ -52,7 +52,7 @@ Measure performance using standard classification metrics:
     ```
 3.  **Run the pipeline**:
     ```bash
-    python main.py
+    python models.py --data adult.csv --out outputs_final_project --make_eda --make_pca
     ```
 
 ### 📊 Hypothesis
